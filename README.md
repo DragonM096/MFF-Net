@@ -7,22 +7,27 @@ Install packages: `pip install -r requirements.txt`
 
 # 3、Dataset
 **The training and validation dataset** we use comes from [this link](https://github.com/peterwang512/CNNDetection), which was collected and organized by the paper 'CNN generated images are surprisingly easy to spot... for now'.
+We achieved very good detection performance using only 10% of this dataset.
 The file organization order for training and validation datasets is as follows：
 ```
-Training and validation dataset
-	|- train(90% of downloaded dataset)
-		|_ 0_real
-			xxxx.png
+Training and validation dataset(10% of the Progan dataset)
+	|- train(90% of dataset)
+		|-0_real
+			0000.png
+			0001.png
 			...
-		|_ 1_fake
-			yyyy.png
+		|- 1_fake
+			0000.png
+			0001.png
 			...
-	|- val(10% of downloaded dataset)
-		|_ 0_real
-			xxxx.png
+	|- val(10% of dataset)
+		|- 0_real
+			0000.png
+			0001.png
 			...
-		|_ 1_fake
-			yyyy.png
+		|- 1_fake
+			0000.png
+			0001.png
 			...
 ```
 **test dataset** will be provided in the near future. Coming soon~~~
