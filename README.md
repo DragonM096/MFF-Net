@@ -1,6 +1,7 @@
 # 1、Introduction
 This project currently has a paper under submission, titled "**MFF-Net: A Multi-Scale Feature Fusion Network for Generalized Forgery Image Detection**". 
-We will gradually upload the remaining code in the future.
+At present, we have only uploaded partial training codes and training datasets. 
+We will gradually upload complete training and testing codes in the future.
 
 # 2、Setup
 Install packages: `pip install -r requirements.txt`
